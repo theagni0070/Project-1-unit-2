@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account | Bath & Body Works</title>
+    <style>
+        h3,a{
+            
+            color: rgb(163, 157, 157);
+        }
+        img{
+            display: flex;
+           height: 80px;
+            width: 90%;
+            margin-left: 10px;
+        }
+        h1,hr{
+            color: rgb(27, 25, 25);
+        }
+        h2{
+            color: grey;
+          text-align: center;
+        }
+        input{
+            display: block;
+            margin:auto;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .cur{
+
+            font-family: cursive ;
+           color: blue;
+           text-align: center;
+        }
+        p{
+            font-size: large;
+            text-align: center;
+            line-gap-override: 20px;
+        }
+        button{
+            display: block;
+            margin: auto;
+            padding: 10px;
+            background-color: black;
+            color: rgb(51, 137, 213);
+            
+        }
+
+        button:hover{
+            background-color: aliceblue;
+            color: rgb(125, 26, 26);
+        }
+        .navbar{
+            height: 100px;
+            width: 95%;
+            border: 1px solid red;
+            margin-left: 50px;
+        }
+
+        .footer{
+            height: 500px;
+            width: 95%;
+            border: 2px solid black;
+            margin-left: 20px;
+        }
+        .contact>h2{
+          
+            font-family: Trade Gothic W01 Light,Arial,sans-serif;
+            text-align: center;
+            color: grey;
+            font-weight: 400;
+        }
+
+        .contact>h3{
+            text-align: center;
+            color: grey;
+        }
+
+
+       
+    </style>
+
+
+   </head>
+   <body>
+    <div class="navbar">navbar</div>
+    <h3> <a href="index.html">HOME</a> /</h3>
+    <h3>SIGN IN OR SIGN UP</h3>
+    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw67bc4699/images/banners/sign-in_d.png?yocs=s_" alt="">
+   
+    <h1>Sign In or Sign Up</h1>
+    <hr>
+
+   <h2>SIGN IN</h2>
+   <h2>If you already have an account with us, sign in below</h2>
+
+   <form>
+       <input id="email" type="text" placeholder="Enter your email here">
+       <input id="password" type="password" placeholder="Enter your password here">
+       <input  type="submit" value="SIGN IN">
+   </form>
+   <hr>
+
+    <div class="sinup">
+        <h2>SIGN Up</h2>
+        <h2>Create an account to access the best of your favorite store</h2>
+        <!-- <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwf946a6ac/images/loyalty/July19/nonloyalty_5thmkt_signuptile_D.png?yocs=s_" alt="">
+        -->
+        <h3 class="cur">its so easy and you will love the benefits</h3>
+        <p>Faster checkout, order history and tracking,
+             saving your favorites, smiles all around.
+           it's yours with a free Bath & Body Works account.   
+        </p>
+
+        <button> <a href="signup.html">CREATE AN ACCOUNT</a></button>
+
+    </div>
+
+      <div class="contact">
+          <h2>QUESTION?</h2>
+          <h3>We're here for you! Call us at 1-800-756-5005.</h3>
+      </div>
+
+    <hr>
+
+    <div class="footer">footer</div>
+
+</body>
+</html>
+    
+
+<script>
+    var form = document.querySelector("form");
+
+    var userData = JSON.parse(localStorage.getItem("userData"));
+    // console.log(userData)
+
+    form.addEventListener("submit",function(event){
+
+        event.preventDefault();
+
+        var data={
+
+            email:form.email.value,
+            password:form.password.value,
+        }
+
+        if(userData == null){
+            alert("please Create an account");
+
+        }else if(userData.email == data.email && userData.password == data.password){
+         
+          alert("sign in successful")
+          
+          localStorage.setItem("signin",JSON.stringify(userData));
+          window.location.href="index.html";
+        }else{
+           
+         alert("User Does not Exist");   
+
+        }
+
+    })
+
+</script>
+

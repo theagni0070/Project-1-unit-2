@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <style>
+
+          h3,a{
+            
+            color: rgb(163, 157, 157);
+          }
+
+          img{
+            display: flex;
+           height: 80px;
+            width: 90%;
+            margin-left: 10px;
+        }
+
+         input{
+            display: block;
+            margin:auto;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        form>p{
+            text-align: center;
+            color: grey;
+        }
+
+        h1{
+            color: rgb(3, 2, 2);
+        }
+        .navbar{
+            height: 100px;
+            width: 95%;
+            border: 1px solid red;
+        }
+        .footer{
+            height: 500px;
+            width: 95%;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">navbar</div>
+    <h3> <a href="Home.html">HOME</a> /</h3>
+    <h3>Create Account</h3>
+    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw6f07f823/images/banners/create-account_d.png?yocs=s_" alt="Head">
+   
+    <h1>Create an Account</h1>
+    <hr>
+
+
+   <form>
+
+       <input id="FirstName" type="text" placeholder="Enter your First Name here">
+       <input id="LastName" type="text" placeholder="Enter your Last Name here">
+       <input id="email"type="text" placeholder="Enter your email here">
+       <input id="confirmEmail"type="text" placeholder="Confirm email ">
+       <input id="ZIPCode"type="number" placeholder="Enter your ZIP/Postal Code here">
+       <input id="moblie"type="number" placeholder="Enter your moblie Number here">
+       <!-- <p>We'll use this to look up your Rewards account in stores</p> -->
+       <input id="password"type="password" placeholder="Enter your password here">
+       <input  type="submit" value="CREATE ACCOUNT">
+
+   </form>
+
+   <hr>
+   <div class="footer">footer</div>
+</body>
+</html>
+
+<script>
+    var form = document.querySelector("form");
+    form.addEventListener("submit",function(event){
+       event.preventDefault();
+
+       var data ={
+
+        FirstName:form.FirstName.value,
+        LastName:form.LastName.value,
+        email:form.email.value,
+        confirmEmail:form.confirmEmail.value,
+        Zipcode:form.ZIPCode.value,
+        Moblie:form.moblie.value,
+        password:form.password.value
+
+       };
+
+       
+
+       localStorage.setItem("userData",JSON.stringify(data));
+       window.location.href="Login&SignUp.html"
+
+    })
+</script>

@@ -2,11 +2,7 @@
 margin:0px;
 padding: 0px;
 }
-#navbar{
-    border:1px solid black;
-    height:70px;
-    width:100%;
-}
+
 #total{
     height:100%;
     display:flex;

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Men's Fragarence |BathandBody.com</title>
+     <link rel="stylesheet" href="mens.css">
+</head>
+<body>
+       <hr>
+        <h5> <a href="index.html">Home</a> / NEW & NOW / MEN'S SHOP</h5>
+    
+       <div class="ht">
+        <h1>Men's Fragrance, Body Care & More</h1>
+       <button>1</button>
+       <button>2</button>
+       <button>3</button>
+        <p>123 items</p>
+       </div>
+        
+    
+     <div class="headimg"> 
+         <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw3295860a/images/Spring2022/xcat_mens-shop_sp2_mgh.gif?yocs=o_s_" alt="">
+        </div>
+   
+    <div id="sorting">
+         
+       <div> <h3>Filter By :</h3></div>
+        <select  id="product">
+        <option value="PRODUCT TYPE">PRODUCT TYPE</option>
+        <option value="3-Wick Candle">3-Wick Candle</option>
+        <option value="Bar Soap">Bar Soap</option>
+        <option value="Body Cream">Body Cream</option>
+        
+        </select>
+    
+
+    <select  id="productName">
+    <option value="FRAGRANCE NAME">FRAGRANCE NAME</option>
+    <option value="Black Tie">Black Tie</option>
+    <option value="Bourbon">FRAGRANCE CATEGORY</option>
+    
+    </select>
+
+    <select  id="productcategory">
+        <option value="FRAGRANCE CATEGORY">FRAGRANCE CATEGORY</option>
+        <option value="Fresh">Fresh</option>
+        <option value="Floral">Floral</option>
+        
+        </select>
+
+        <select  id="productprice">
+            <option >Sort By</option>
+            <option value="HTL">Price High to Low</option>
+            <option value="LTH">Price Low to High</option>
+            
+            </select>
+    </div>
+
+
+  <hr>
+  
+    <div id="container"></div>
+
+    <hr>
+    
+</body>
+</html>
+
+<script>
+
+var menProducts = [
+
+{
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf9b1131b/crop/026237209_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "3-in-1 Hair, Face & Body Wash",
+    price:"$13.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    }, 
+
+
+{
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3d0a0837/crop/026452991_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "3-Wick Candle",
+    price:"$26.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    }, 
+
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwae6eed49/crop/026438823_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Gentle Foaming Hand Soap",
+    price:"$7.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    // addtocard:"ADD TO CART",
+    }, 
+
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2efeac59/crop/026466939_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Wallflowers Frangrance Refill",
+    price:"$7.50",
+    des:"Min & Match: 5/$18 or 7/$24",
+    }, 
+
+
+{
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw577d94af/crop/024637801_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Antiperspirant Deodorant",
+    price:"$12.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    }, 
+
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwba77ffbc/crop/026267868_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Body Spray",
+    price:"$13.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    // addtocard:"ADD TO CART",
+    }, 
+
+
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa2489ef3/crop/026282783_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Ultimate Hydration Body Cream",
+    price:"$15.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    }, 
+
+
+{
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwaac16ab1/crop/026452595_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Single Wick Candle",
+    price:"$15.50",
+    des:"Min & Match: 2/$22",
+    }, 
+
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw550aed97/crop/026237213_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Cologne",
+    price:"$39.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+   
+    }, 
+
+
+    
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw17ae8dbd/crop/026347256_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Hand Sanitizer Spray",
+    price:"$6.50",
+    des:"Min & Match: 3/$15",
+    }, 
+
+
+{
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw18beaa45/crop/026237214_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Mini Cologne",
+    price:"$16.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    }, 
+
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc38aa7b1/crop/026311501_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Travel Size Ultimate Hyfration Body Cream",
+    price:"$7.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+   
+    }, 
+
+
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe5e6aa43/crop/025144602_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Git Bag Set",
+    price:"$34.95",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+   
+    }, 
+
+
+    
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa8621ae1/crop/026440737_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Ocean",
+    poductId: "Car Fragrance Refill",
+    price:"$4.50",
+    des:"Min & Match: 3/$10",
+    }, 
+
+
+{
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw50a09db0/crop/026395407_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Freshwater",
+    poductId: "3-in 1 Hair,Face & Body Wash",
+    price:"$14.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    }, 
+
+
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw7cc638bd/crop/026458623_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Freshwater",
+    poductId: "Single Wick Candle",
+    price:"$15.50",
+    des:"Min & Match:2/$22",
+   
+    }, 
+
+
+    
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd11e9755/crop/026466941_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Freshwater",
+    poductId: "Wallflowers Fragrance Refill",
+    price:"$7.50",
+    des:"Min & Match: 5/$18 or 7/$24",
+    }, 
+
+
+{
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwebae50f2/crop/026399294_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Freshwater",
+    poductId: "Shea Butter Cleansing Bar",
+    price:"$8.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    },  
+
+
+
+   
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw66824eba/crop/026438825_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Freshwater",
+    poductId: "Gentle Foaming hand Soap",
+    price:"$7.50",
+    des:"Min & Match: 6/$27 or 4/$20",
+   
+    }, 
+
+
+    
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw489f00f7/crop/026395413_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Freshwater",
+    poductId: "Ultimate Hydration body Cream",
+    price:"$15.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    }, 
+
+
+{
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa2564d58/crop/026395419_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Freshwater",
+    poductId: "Cologne",
+    price:"$39.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+    },  
+    
+    
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9755e388/crop/026395425_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Freshwater",
+    poductId: "Body Spray",
+    price:"$14.50",
+    des:"Min & Match: Buy 3, Get 3 Free or Buy 2, Get 1 free",
+   
+    }, 
+
+
+    
+    {
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc1518184/crop/026438827_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Black Tie",
+    poductId: "Gentle Foaming Hand Soap",
+    price:"$7.50",
+    des:"Min & Match: 6/$27 or 4/$20",
+    }, 
+
+
+{
+    Products_img:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw26e13ac9/crop/026452598_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    Product_name: "Black Tie",
+    poductId: "Single Wick Candle",
+    price:"$15.50",
+    des:"Min & Match: 2/$22",
+    },   
+
+  
+
+
+
+
+]
+
+     
+    var mensData = JSON.parse(localStorage.getItem("mensproduct"));
+    console.log(mensData)
+
+    //    var displayData(menProducts);
+     
+    var products = document.querySelector("#container");
+
+    var filter = document.querySelector("#productprice");
+  
+
+    function display(data){
+       products.innerHTML=null; 
+
+     data.forEach(function (elem) {
+    var box = document.createElement("div");
+    var Products_img = document.createElement("img");
+    Products_img.setAttribute("src", elem.Products_img);
+    var Product_name = document.createElement("h4");
+    Product_name.innerText = elem.Product_name;
+    var poductId = document.createElement("p");
+    poductId.innerText = elem.poductId;
+    var price = document.createElement("h3");
+    price.innerText = elem.price;
+    var des = document.createElement("p");
+    des.innerText = elem.des;
+    var button = document.createElement("btn");
+    button.innerText = "ADD TO CART";
+     
+                    
+   
+     
+    box.append(Products_img, Product_name, poductId, price,des,button);
+     products.append(box);
+
+    localStorage.setItem("mensproduct",JSON.stringify(menProducts));
+
+  });
+
+ }
+
+  display(menProducts);
+
+  filter.addEventListener("change", function(){
+       
+    if(filter.value == "HTL"){
+       
+        mensData.sort(function(a,b){
+            return b.price - a.price;
+        });
+
+        display(mensData)
+
+
+    }
+    
+    if(filter.value == "LHT"){
+       
+       mensData.sort(function(a,b){
+           return a.price - b.price;
+       });
+
+       displayData(mensData)
+
+
+   }
+
+    
+
+
+ })
+    
+    
+        
+
+</script>

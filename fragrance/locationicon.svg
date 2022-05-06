@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>4E9D71BF-A2BA-4ECE-946E-020C1AADE86F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M7.30538922,0.0304262184 C6.31736527,0.0304262184 5.47904192,0.569094316 5,1.34717046 C4.52095808,0.539168311 3.68263473,0.000500212928 2.69461078,0.000500212928 C1.19760479,-0.0294257925 0,1.28731845 0,2.90332274 C0,3.2325088 0.0299401198,3.53176886 0.119760479,3.8011029 C0.299401198,4.72880907 1.79640719,6.07547932 3.17365269,7.18274152 C3.83233533,7.72140962 4.97005988,8.49948576 4.97005988,8.52941176 C5.4491018,8.23015171 6.10778443,7.75133562 6.76646707,7.21266753 C8.14371257,6.13533133 9.64071856,4.75873508 9.8502994,3.86095492 C9.94011976,3.59162087 10,3.29236081 10,2.96317475 C10,1.34717046 8.80239521,0.0304262184 7.30538922,0.0304262184 Z" id="path-1"></path>
+    </defs>
+    <g id="BOPIS-Cycle-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="d/overlay/bopis-modal/empty/location-error" transform="translate(-623.000000, -262.000000)">
+            <g id="d/bopis-modal/empty/location-error" transform="translate(510.000000, 242.000000)">
+                <g id="bopis-modal-empty">
+                    <g id="Add-Address" transform="translate(20.000000, 20.000000)">
+                        <g id="bopis-modal/title" transform="translate(89.000000, 0.000000)">
+                            <g transform="translate(3.000000, 0.000000)" id="bopis-icon/alt/s">
+                                <g>
+                                    <g id="bopis-icon-small" transform="translate(1.000000, -1.000000)">
+                                        <ellipse id="Oval" fill="#AAAAAA" cx="9" cy="21" rx="9" ry="2"></ellipse>
+                                        <g id="bopis-icon" fill="#FFFFFF" fill-rule="nonzero" stroke="#005699">
+                                            <path d="M9.00211218,20.4052071 C11.0222326,19.102662 12.5643212,17.8547394 13.6273775,16.6666046 C19.2704346,10.3595895 17.2124526,1.57020513 8.92517061,1.4885011 C0.634017869,1.40675891 -1.40287881,10.3751166 4.3683332,16.6618718 C5.45445347,17.8450154 6.99939604,19.0942918 9.00211218,20.4052071 Z" id="Rectangle-4"></path>
+                                        </g>
+                                        <g id="elements/icons/add-to-love-it-list/visited" transform="translate(4.000000, 6.000000)">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <use id="Mask" fill="#E20887" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                            <g id="colors/primary/#E20887" mask="url(#mask-2)" fill="#E20887">
+                                                <g id="#E20887">
+                                                    <rect id="Rectangle-Copy-10" x="0" y="0" width="10" height="8.52941132"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+#main-Page {
+    width: 90%;
+    margin: 20px auto;
+}
+.box1 {
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.img1 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#button1 {
+    font-weight: bolder;
+    border: 0px;
+    background: #e5e5e5;
+    color: #333;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 32px;
+    margin-top: 5px;
+}
+#button1:hover{
+    background-color: #333;
+    color: #e5e5e5;
+    cursor: pointer;
+}
+.box2 {
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px;
+}
+.box2>div,h2 {
+    padding: 3px;
+}
+.box2>div:nth-child(1) {
+    font-weight: bold;
+}
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 450px;
+    margin: auto;
+}
+.box3>div:nth-child(1) {
+    width: 70%;
+}
+.box3>div:nth-child(2) {
+    width: 25%;
+    text-align: center;
+}
+.AddtoBag {
+    width: 50%;
+    margin: 60px auto;
+}
+.p1{
+    margin-top: -60px;
+    color: #005699;
+}
+#Bagbutton {
+    width: 100%;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 32px;
+    margin-top: 5px;
+    background-color: #333;
+    color: #e5e5e5;
+    font-weight: bolder;
+    border: 0px;
+}
+#Bagbutton:hover{
+    color: #333;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+p~div {
+    padding: 4px;
+}
+p~div:nth-child(1) {
+    font-weight: bolder;
+}
+.grey {
+    color: #666;
+}
+.red {
+    color: #c00;
+}
+.box1-1 {
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+#Shopingcategory {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 100%;
+    gap: 10px;
+    margin: auto;
+    text-align: center;
+}
+#Shopingcategory>div>h5 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#Shopingcategory>div>img {
+    width: 100%;
+    height: 90%;
+
+}
+#Shopingcategory-box {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+#Shopingcategory>div>h5:hover {
+    text-decoration: none;
+}
+#Shopingcategory-copy {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(400px);
+    gap: 90px;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+#Shopingcategory-copy>div>img {
+    width: 100%;
+    height: 100%;
+}
+#Shopingcategory-copy>div>h5 {
+    text-decoration: underline;
+    margin-top: 8px;
+    letter-spacing: .02em;
+}
+#Shopingcategory-copy>div>h5:hover {
+    text-decoration: none;
+}
+#Shopingcategory-copy>div>p {
+    margin-top: 8px;
+    color: #666;
+    letter-spacing: .02em;
+    font-size: 1rem;
+}
+.box1-1-copy {
+    margin-top: 90px;
+}
+.buttonGrid{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 32px;
+    row-gap: 15px;
+    width: 80%;
+    margin: 40px 140px;
+    text-align: center;
+}
+.buttonGrid>div {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.buttonGrid>div:hover {
+    color: #333;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+.para {
+    width: 70%;
+    margin: 1em auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    list-style: 1.4;
+    font-weight: 400;
+    color: #666;
+}
+.para>h2 {
+    color: #333;
+    margin: 1.75rem 0 0.5rem;
+    font-size: 1.75rem;
+    border: none;
+    padding: 0;
+}
+.HRray {
+    height: 50px;
+    margin:auto;
+    position: relative;
+    margin-top: 60px;
+}
+hr {
+    margin: auto;
+    margin-top: 20px;
+    color: black;
+}
+.HRmiddle {
+    width: 30%;
+    margin: auto;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+    left: 400px;
+    background-color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.box2>h2+div {
+    color: grey;
+    margin-bottom: 10px;
+}
+#container {
+    margin: 30px auto;
+    width: 95%;
+    height: 400px;
+    background-color: #f2f2f2;
+}
+#container>h2 {
+    padding: 30px;
+    text-align: center;
+}
+.slide-box {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 300px;
+    gap: 40px;
+    text-align: center;
+}
+.slide-box>div {
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    display: block;
+    padding: 30px;
+}
+

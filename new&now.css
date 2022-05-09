@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding: 0px;
+    }
+#total{
+    height:100%;
+    display:flex;
+    flex-wrap: nowrap;
+}
+#side{
+    height:auto;
+    width:23%;
+    border:0px solid black;
+    margin-left: 25px;
+    margin-top:7px;
+   
+}
+#s1{
+    color:rgba(0, 0, 0, 0.664)
+}
+#side p{
+    cursor:pointer;
+    font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'IBM Plex Sans Hebrew', sans-serif;
+font-family: 'Orelega One', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+font-weight: lighter;
+font-size: 14px;
+color:rgba(0, 0, 8, 0.54);
+}
+#side>h3{
+    color:rgba(0, 0, 8, 0.817)
+}
+#main{
+    height:auto;
+    width:80%;
+    border: 0px solid black;
+    margin-left:20px;
+    margin-right:10px;
+}
+#main>div p{
+    cursor:pointer;
+    font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'IBM Plex Sans Hebrew', sans-serif;
+font-family: 'Orelega One', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+font-weight: lighter;
+font-size: 16px;
+color:rgba(0, 0, 8, 0.54);
+}
+
+#main>div>h2{
+    color:rgba(0, 0, 8, 0.641)
+}
+
+#hf{
+    margin-top: 10px;
+    font-weight: lighter;
+    color:rgba(0, 0, 0, 0.674)
+}
+.line{
+    border-top: .7px solid black;
+}
+#first>img{
+    width:100%;
+}
+#main>div>img{
+    width: 100%;
+}
+
+#halfline{
+    font-size: 1.0625rem;
+    letter-spacing: 2.5px;
+    display: inline;
+    padding: 0 20px;
+    position: relative;
+    top: -15px;
+    background: #fff;
+}
+#about{
+    margin-left:25px;
+    margin-top:25px;
+    width:76%;
+    color:rgba(0, 0, 0, 0.664);
+}
+
+
+h3{
+    font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'IBM Plex Sans Hebrew', sans-serif;
+font-family: 'Orelega One', cursive;
+font-family: 'Zen Kaku Gothic New', sans-serif;
+font-weight: lighter;
+font-size: 30px;
+}

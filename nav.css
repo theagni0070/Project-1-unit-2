@@ -1,0 +1,120 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+#Navbar_id {
+    color: #005699;
+    margin: 0px;
+    padding: 0px;
+}
+.navbox1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 8px;
+    cursor: pointer;
+}
+.textbold {
+    font-size: 20px;
+    font-weight: 700;
+}
+.coupentext {
+    font-weight: 600;
+    font-size: 15px;
+}
+.smalltext {
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+    align-self: flex-end;
+}
+.smalltext:hover {
+    text-decoration: none;
+}
+.border-box2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+.border-box2>div {
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+}
+.store {
+    color: #666;
+    font-size: 12px;
+    text-decoration: underline;
+    align-self: flex-end;
+    cursor: pointer;
+}
+.store:hover {
+    text-decoration: none;
+}
+.pickup {
+    font-size: 13px;
+    letter-spacing: .08em;
+    font-weight: 400;
+    text-align: center;
+}
+.image-box {
+    width: 25%;
+    margin: 30px auto;
+    cursor: pointer;
+}
+.cart-Images {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px; 
+}
+.cart-Images>div {
+    width: 8%;
+}
+.cart-Images>div>img {
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+}
+.login-in {
+    margin-top: -5px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    color: #005699;
+}
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto;
+}
+#menu>p {
+    color: #333;
+    font-size: 13px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+.hover-line::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    transition: width .1 ease;
+    background-color: #005699;
+}
+.hover-line:hover::after {
+    width: 100%;
+    transition:width .1ms ease;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+

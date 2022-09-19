@@ -1,5 +1,3 @@
-# Unit-2-Project
-
 
 ## Bath & Body Works clone
 

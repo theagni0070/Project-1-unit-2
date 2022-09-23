@@ -15,7 +15,7 @@ In case of any suggestion and query feel free to connect us.
  
  
  <h1>About </h1>
-    HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. Hubspot was founded by Brian Halligan and Dharmesh Shah in 2006. HubSpot, Inc. Cambridge, Massachusetts, U.S.
+    American beauty brand Bath & Body Works, known for its body care and home products, has launched its online store in India. The 4 billion dollar brand had opened seven retail outlets across Delhi, Mumbai and recently Chennai since its entry in July 2018 in partnership with franchisee retailer Major Brands (India)
 
 ---
 

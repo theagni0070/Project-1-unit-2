@@ -1,7 +1,7 @@
 ###  You are looking of website <span>Bath & Body Works Clone<span>
 
  <h2>Welcome to this repo</h2>
- We are team of 4 members ( Subham Agnihotri, Sachin Kumar, Anjani Vara Prasad, Ranajit Das) has completed the task in 6 days and Given our 
+ We are team of 4 members ( Shubham Agnihotri, Sachin Kumar, Anjani Vara Prasad, Ranajit Das) has completed the task in 6 days and Given our 
  best efforts to Construct this project.
 In case of any suggestion and query feel free to connect us.
  
@@ -50,9 +50,9 @@ https://beautiful-cat-23c58b.netlify.app/index.html
 
 ![Screenshot (942)](https://user-images.githubusercontent.com/101388961/192011929-b041b947-a73d-47f3-881d-ffbed9272120.png)
 
-  - *Contact-us Page*
-  
-![Uploading Screenshot (938).png…]()
+ - *Contact-us Page*
+
+![Screenshot (938)](https://user-images.githubusercontent.com/101388961/192013376-2ea2d23a-a9a9-4e01-825c-8cd325805bf4.png)
 
 ---
 
@@ -77,7 +77,7 @@ we really enjoyed this whole part of developing and had a learing experience and
 
 ### Team Members
 
-- **[Subham Agnihotri]**
+- **[Shubham Agnihotri]**
 - **[Sachin Kumar]**
 - **[Ranajit Das]**
 - **[Anjani Vara Prasad]**

@@ -1,42 +1,86 @@
+###  You are looking of website <span>Bath & Body Works Clone<span>
 
-## Bath & Body Works clone
+ <h2>Welcome to this repo</h2>
+ We are team of 4 members ( Subham Agnihotri, Sachin Kumar, Anjani Vara Prasad, Ranajit Das) has completed the task in 6 days and Given our 
+ best efforts to Construct this project.
+In case of any suggestion and query feel free to connect us.
+ 
+ <h1>TOOLS AND TECHNOLOGY USED ></h1>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Advanced Javascript</li> 
 
-This is a e-commerce website clone that we made during the construct week at Masai School. It was completed within 6 days.
+ 
+### Project Description
+ 
+ 
+ <h1>About </h1>
+    HubSpot is an American developer and marketer of software products for inbound marketing, sales, and customer service. Hubspot was founded by Brian Halligan and Dharmesh Shah in 2006. HubSpot, Inc. Cambridge, Massachusetts, U.S.
 
-## Deployment
+---
 
-This project is deployed on netlify here - [Bath & Body works](https://beautiful-cat-23c58b.netlify.app/)
+### Netlify Link
+ 
+https://beautiful-cat-23c58b.netlify.app/index.html
+ 
+ 
+ ### Following are the Screenshots for the reference
 
-## Authors
+- *Landing Page*
 
-- [@Shubham Agnihotri](https://github.com/theagni0070)
+![Screenshot (936)](https://user-images.githubusercontent.com/101388961/192011089-f411a085-f68a-470c-8085-8b5c4b53dadf.png)
 
+- *Login Page*
 
-# Description -
+![Screenshot (937)](https://user-images.githubusercontent.com/101388961/192011234-dc2daa73-ef82-414a-90d2-30797ca9a04d.png)
 
-The e-commerce website has the following pages and the order of flow is also the same.
+- *Body Care Page*
 
-## Login and Signup -
-1. Login Page - This page will get the email from user.
-2. Signup Page - This page will get the password and gender from the user.
-3. Login with Password - This page will check the entered Email and Password and redirect you to the Home Page.
+![Screenshot (939)](https://user-images.githubusercontent.com/101388961/192011454-87008c38-1417-41b6-a994-75f9a3e7be7c.png)
 
-## Home page -
+- *Home Fragrance Page*
 
+![Screenshot (940)](https://user-images.githubusercontent.com/101388961/192011549-a40543ec-b330-490a-bbb8-7f10a2dfee58.png)
 
+- *Candles Page*
 
-## Men's Clothing, Women's Clothing - 
-1. You can select various products from this pages.
-2. You can even sort the products according to your comfort.
+![Screenshot (941)](https://user-images.githubusercontent.com/101388961/192011616-9771ea92-a3d8-4838-84c8-bc4f981f69e6.png)
 
-## Product Page - 
+- *Checkout Page*
 
-1. This page gets the data about that specific product from the cateogory pages and displays it in detail here. 
+![Screenshot (942)](https://user-images.githubusercontent.com/101388961/192011929-b041b947-a73d-47f3-881d-ffbed9272120.png)
 
-3. You can add the product to your cart. The price / cutoff price / discount etc all are displayed here.
+  - *Contact-us Page*
+  
+![Uploading Screenshot (938).png…]()
 
-## Cart Page - 
+---
 
+### About Project
 
+> We did this project within 6 days in our unit-2 construct week.
+We have also add some cool functionality in our home page where 
+you can slide images of our products ans in our checkout page you can apply promocode for discount, you
+can Login to buy the products.
 
-## Payment page - 
+---
+
+<h1>WEBSITE USER FLOW ></h1>
+
+The user flow that we tried to maintain is,
+
+home -> login -> dashboard -> Enter email details -> 
+Enter password -> Landing page-> -> Products page -> Add to cart -> Checkout page -> Buy now.
+
+ <h1>TEAM MEMBERS AND MESSAGE></h1>
+we really enjoyed this whole part of developing and had a learing experience and have given our best efforts to bring the BEST thing as POSSIBLE.
+
+### Team Members
+
+- **[Subham Agnihotri]**
+- **[Sachin Kumar]**
+- **[Ranajit Das]**
+- **[Anjani Vara Prasad]**
+
+---
+
